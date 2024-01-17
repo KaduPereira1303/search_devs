@@ -38,7 +38,7 @@ git pull origin main
 npm i
 
 #Executar a aplicação no modo de Desenvolvimento 
-npm run dev
+npm start
 
 #Para execitar a build de produção
 npm run build`
