@@ -32,6 +32,7 @@ export const SearchButton = styled(Button)`
   height: 48px;  
   padding: 3%;
 `;
+
 export const HomePage = styled(Box)`
   background-color: white;
   display: flex;
