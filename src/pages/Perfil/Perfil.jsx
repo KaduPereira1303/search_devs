@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Typography, InputAdornment, Skeleton } from "@mui/material";
+import { Typography, InputAdornment, Skeleton, capitalize } from "@mui/material";
 import {
   PerfilBody,
   Body,
@@ -148,11 +148,11 @@ function Perfil() {
                     />
                   </FirstColumn>
                   <SecondColumn>
-                    <Typography variant="h6">{devData.login}</Typography>
+                    <Typography variant="h6"   style={{  fontWeight: "bold" , color: "black"}}>{capitalize(devData.login)}</Typography>
                   </SecondColumn>
                 </PerfilArea>
                 <Typography variant="subtitle2" sx={{ marginBottom: 3 }}>
-                  {devData.bio}
+                  {capitalize(devData.bio)}
                 </Typography>
                 <Typography variant="subtitle2">
                   {devData.followers !== undefined && (
