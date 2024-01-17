@@ -1,6 +1,6 @@
 # Search D_evs
 
-Aplicação web para o Desafio da Vaga de Desenvolvedor React Júnior da empresa Petize. A aplicação busca e exibe os dados de Desenvolvedores com conta no GitHub, bem como seus repositorios
+Aplicação web para o Desafio da Vaga de Desenvolvedor React Júnior da empresa Petize. A aplicação busca e exibe os dados de Desenvolvedores com conta no GitHub, bem como seus repositórios.
 
 # Tecnologias Utilizadas
 
